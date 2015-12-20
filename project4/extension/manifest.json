@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	
+	"name": "URL 重定向扩展插件",
+	"description": "自定义重定向特定的 URL ，例如有些引用了 Google 的 js 文件被 GFW 墙了，而导致出问题了，可以把被墙的文件重定向到国内的 URL",
+	"version": "1.0",
+    "options_page": "选项.html",
+	"permissions": [
+	  "webRequest",
+	  "webRequestBlocking",
+	  "*://*/*"
+	],
+
+	"background": {
+		"scripts": ["background.js"]
+	}
+
+}
