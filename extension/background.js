@@ -1,8 +1,3 @@
-
-var t2;
-var t3;
-var t4;
-
 (function() {
     var mappings = JSON.parse(localStorage["nl.sjmulder.urlrewrite.mappings"] || "[]");
     mappings.push({
