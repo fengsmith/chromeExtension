@@ -2,11 +2,11 @@
     var mappings = JSON.parse(localStorage["nl.sjmulder.urlrewrite.mappings"] || "[]");
     mappings.push({
         "sourceUrl": "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js",
-        "destinationUrl": "http://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"
+        "destinationUrl": "https://code.jquery.com/jquery-1.7.1.min.js"
     });
     mappings.push({
         "sourceUrl": "https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js",
-        "destinationUrl": "https://code.jquery.com/jquery-1.8.0.min.js"
+        "destinationUrl": "https://code.jquery.com/jquery-1.7.1.min.js"
     });
     var sourceUrls = querySourceUrls(mappings);
 
